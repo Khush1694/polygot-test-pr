@@ -8,7 +8,8 @@ const password = "12345678";
 const user = {
     firstName,
     lastName,
-    email
+    email,
+    password
 };
 
 const customer = await stripe.customers.create({
